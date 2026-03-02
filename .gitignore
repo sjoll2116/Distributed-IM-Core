@@ -1,0 +1,37 @@
+# Binaries
+bin/
+kama_chat_server
+kama_chat_server.exe
+
+# Configurations
+configs/*.toml
+!configs/config.example.toml
+
+# Logs
+logs/
+*.log
+
+# Static assets and uploads
+static/files/*
+static/avatars/*
+!static/avatars/default.png
+
+# TLS Certificates
+*.crt
+*.key
+*.pem
+
+# Go dependencies
+vendor/
+go.sum
+
+# Frontend dependencies and builds
+web/chat-server/node_modules/
+web/chat-server/dist/
+web/chat-server/.env.local
+
+# IDE and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
